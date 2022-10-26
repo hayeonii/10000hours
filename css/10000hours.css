@@ -73,3 +73,33 @@ body {
     height: 112px;
 }
 
+.intro {
+    margin-top: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-quotes {
+    font-family: 'OTEnjoystoriesBA';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #F5DF4D;
+}
+
+.intro-txt {
+    margin-top: 78px;
+    font-size: 18px;
+    line-height: 1.8em;
+    text-align: center;
+    background-image: url('/img/quotes.png');
+    width: 493px;
+    background-repeat: no-repeat;
+    background-position: center top 13px;
+}
+
+.intro-txt strong {
+    font-size: 24px;
+    font-weight: 700;
+}
