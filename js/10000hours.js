@@ -24,3 +24,35 @@ btnHow.addEventListener('click', function(e) {
         result.style.display = 'block'
     }, 3000)
 })
+
+
+const goTraining = document.querySelector('#training')
+
+// modal 띄우기
+goTraining.addEventListener('click', function() {
+    const modal = document.querySelector('.modal')
+    modal.style.display = 'block'
+})
+
+const realTraining = document.querySelector('#real-training')
+
+// modal 닫기 (나중에 닫기 버튼 따로 만들고 링크 연결하면 좋을 듯)
+realTraining.addEventListener('click', function() {
+    const modal = document.querySelector('.modal')
+    modal.style.display = 'none'
+})
+
+const share = document.querySelector('#share')
+
+// URL 복사
+share.addEventListener('click', function() {
+    const dummy   = document.createElement("input");
+    const text    = location.href;
+    
+    document.body.appendChild(dummy);
+    dummy.value = text;
+    dummy.select();
+    document.execCommand("copy");
+    document.body.removeChild(dummy);
+    alert('URL이 복사되었습니다')
+})
