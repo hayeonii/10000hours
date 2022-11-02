@@ -213,3 +213,68 @@ body {
     line-height: 17px;
     text-align: center;
 }
+
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.modal-cont {
+    box-sizing: border-box;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 76px 0 68px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+
+    display: none;
+}
+
+.modal-txt {
+    font-family: 'OTEnjoystoriesBA';
+    text-align: center;
+    color: #5B2386;
+}
+
+.modal-txt p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.modal-txt p:nth-child(1) {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 106px;
+}
+
+.modal img {
+    margin: 29px 0 74px 0;
+    width: 433px;
+    height: 337px;
+}
+
+.modal .btn {
+    width: 500px;
+    height: 66px;
+    padding: 24px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+}
