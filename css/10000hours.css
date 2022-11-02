@@ -28,6 +28,15 @@
     url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
 }
 
+@keyframes clock {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .blind {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -161,7 +170,8 @@ body {
 
 .clock {
     margin-top: 147px;
-    /* display: none; */
+    animation: clock 3s;
+    display: none;
 }
 
 .contents-result {
@@ -169,7 +179,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* display: none; */
+    text-align: center;
+    display: none;
 }
 
 .result-txt strong {
@@ -222,6 +233,7 @@ body {
     left: 0;
     right: 0;
     z-index: 999;
+    display: none;
 }
 
 .modal-cont {
@@ -241,8 +253,6 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
-
-    display: none;
 }
 
 .modal-txt {
