@@ -42,7 +42,7 @@ body {
 }
 
 :root {
-    font-family: 'Gmarket Sans';
+    font-family: 'GmarketSansMedium';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -102,4 +102,56 @@ body {
 .intro-txt strong {
     font-size: 24px;
     font-weight: 700;
+}
+
+.contents-input {
+    margin-top: 102px;
+}
+
+.input-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 3.5em;
+}
+
+.input-txt input {
+    margin: 0 17px;
+    width: 228px;
+    height: 57px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.input-txt input::placeholder {
+    font-family: 'GmarketSansMedium';
+    font-size: 24px;
+    text-align: center;
+    color: #BABCBE;
+}
+
+.input-btn {
+    margin-top: 115px;
+    text-align: center;
+    position: relative;
+}
+
+.input-btn button {
+    width: 565px;
+    height: 66px;
+    background: #FCEE21;
+    border-style: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 56px;
+    font-family: 'GmarketSansBold';
+    font-size: 24px;
+    font-weight: 700;
+    color: #5B2386;
+}
+
+.input-btn img {
+    position: absolute;
+    top: 20px;
+    right: 30px;
 }
