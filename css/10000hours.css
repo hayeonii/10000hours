@@ -242,8 +242,8 @@ body {
 .modal-cont {
     box-sizing: border-box;
     margin: auto;
-    width: 800px;
-    height: 800px;
+    width: 600px;
+    height: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -252,7 +252,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 76px 0 68px 0;
+    padding: 26px 0 18px 0;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
@@ -266,28 +266,28 @@ body {
 
 .modal-txt p {
     font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
 }
 
 .modal-txt p:nth-child(1) {
     font-weight: 700;
-    font-size: 96px;
+    font-size: 80px;
     line-height: 106px;
 }
 
 .modal img {
-    margin: 29px 0 74px 0;
-    width: 433px;
-    height: 337px;
+    margin-bottom: 25px;
+    width: 400px;
 }
 
 .modal .btn {
-    width: 500px;
-    height: 66px;
-    padding: 24px 0;
+    width: 420px;
+    height: 26px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 26px;
 }
