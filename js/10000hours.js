@@ -11,14 +11,15 @@ btnHow.addEventListener('click', function(e) {
     const resultHour = document.querySelector('#result-hour')
 
     resultTask.innerHTML = task
-    resultHour.innerHTML = 10000/hour
+    resultHour.innerHTML = Math.floor(10000/hour)
 
     
     // 시계 효과, 결과 보여주기
     const clock = document.querySelector('.clock')
     const result = document.querySelector('.contents-result')
-    clock.style.display = 'block'
 
+    clock.style.display = 'block'
+    result.style.display = 'none'
     setTimeout(() => {
         clock.style.display = 'none'
         result.style.display = 'block'

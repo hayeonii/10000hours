@@ -129,6 +129,7 @@ body {
     width: 228px;
     height: 57px;
     border-radius: 7px;
+    border-style: none;
     text-align: center;
     font-size: 24px;
 }
@@ -171,6 +172,7 @@ body {
 
 .clock {
     margin-top: 147px;
+    width: 100px;
     animation: clock 3s;
     display: none;
 }
