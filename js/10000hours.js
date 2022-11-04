@@ -38,9 +38,10 @@ goTraining.addEventListener('click', function() {
 const realTraining = document.querySelector('#real-training')
 
 // modal 닫기 (나중에 닫기 버튼 따로 만들고 링크 연결하면 좋을 듯)
-realTraining.addEventListener('click', function() {
+realTraining.addEventListener('click', function(e) {
     const modal = document.querySelector('.modal')
     modal.style.display = 'none'
+    e.preventDefault()
 })
 
 const share = document.querySelector('#share')
